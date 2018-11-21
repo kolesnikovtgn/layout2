@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html {
+    font: 400 62.5% 'Roboto', sans-serif;
+    min-width: 300px;
+}
+
+.topline {
+    background-color: #9B51E0;
+    width: 100%;
+    height: 5px;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.header {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header__square {
+    width: 50px;
+    height: 48px;
+    border: solid 3px #FFC740;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.header__text {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: #000000;
+    background-color: #FFFFFF;
+    margin: 42px 0 0 25px;
+    position: absolute;
+    z-index: 1;
+}
+
+.header__search {
+    max-width: 201px;
+    margin-top: 40px;
+}
+
+.header__search-input {
+    width: 158px;
+    height: 33px;
+    border: solid 1px #6D3D99;
+    border-right: 0px;
+    margin: 0;
+}
+
+.header__search-button {
+    width: 42px;
+    height: 33px;
+    border: solid 1px #6D3D99;
+    border-left: 0px;
+    background-color: #9B51E0;
+    color: #FFFFFF;
+    outline: none;
+    margin: 0;
+}
+
+.header__search-button:focus {
+    background-color: #9B51E0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-user {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #050505;
+    margin-top: 16px;
+}
+
+.navbar-user ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-user li {
+    width: 123px;
+    margin: 0;
+}
+
+.navbar-user li:last-child {
+    width: 106px;
+}
+
+.navbar-user li a {
+    display: block;
+    color: #050505;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.navbar-user li a:hover {
+    background-color: #FFC740;
+    color: #FFFFFF;
+}
+
+.main__image {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url(../images/Mountains-and-hills-julian-alps.png) no-repeat;
+    background-position:center bottom;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 1260px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}
